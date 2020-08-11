@@ -1,0 +1,21 @@
+.header {
+	color: white;
+    height: 700px;
+    background-image: url("../img/post-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    & h1 {
+    font-family: $playfair;
+    font-size: $xx-large;
+    margin-bottom: 25%;
+    font-weight: $bold;
+    font-style: italic;
+    }
+}
+
+.header__content {
+	max-width: 700%;
+	margin: 0 auto;
+	padding-top: 10%;
+}

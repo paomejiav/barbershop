@@ -1,0 +1,20 @@
+.paginator {
+	background-color: $platinum;
+	
+}
+
+
+.pagination {
+	margin: 0;
+
+}
+
+
+.page-link {
+	color: $erieblack;
+
+	&:hover {
+	color: $white;
+	background-color: $nickel;
+}
+}
